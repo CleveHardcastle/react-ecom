@@ -43,7 +43,7 @@
   cursor: pointer;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cartItem {
     width: 100%;
   }
@@ -58,4 +58,4 @@
     display: flex;
     justify-content: center;
   }
-} */
+}
