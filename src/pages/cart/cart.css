@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.price {
+  
+}
+
 .cartItem {
   width: 700px;
   height: 250px;
@@ -37,4 +41,21 @@
   border-radius: 8px;
   margin: 10px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .cartItem {
+    width: 100%;
+  }
+  .cartItem img {
+    width: 50%;
+  }
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .countHandler {
+    display: flex;
+    justify-content: center;
+  }
 }

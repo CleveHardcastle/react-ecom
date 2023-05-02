@@ -52,3 +52,20 @@
   color: white;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .products {
+    display: initial;
+  }
+  .product {
+    width: auto;
+    flex-direction: column;
+    align-self: center;
+  }
+  .product img {
+    width: 150%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
